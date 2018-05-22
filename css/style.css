@@ -59,5 +59,14 @@ text-align:right;
   color:white;
   margin-left:20px;
   font-size:20px;
-
+}
+.banner {
+  width:100%;
+  display:block;
+  margin-top:-15px;
+  margin-bottom:10px;
+}
+.banner > .bannerimg {
+  width:100%;
+  display:block;
 }

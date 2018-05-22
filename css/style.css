@@ -1,5 +1,6 @@
 body{
   background-color:black;
+  font-family:fantasy;
 }
 .container{
   display:flex;
@@ -7,7 +8,7 @@ body{
 }
 .info {
   font-size:18px;
-  color:green;
+  color:#3ae01d;
   margin-left:10px ;
   font-weight:bold;
   font-family:fantasy;
@@ -17,9 +18,13 @@ body{
   margin:0 auto;
 }
 h1{
-color:#ffffff;
-background-color:#2e6bcc;
+color:white;
+background-color:black;
 padding:10px 10px 10px 10px;
+font-size:30px;
+background-color: #3ae01d;
+padding:20px 10px;
+margin-top:-10px;
 }
 .links {
   margin-top:50px;
@@ -30,7 +35,7 @@ padding:10px 10px 10px 10px;
   border-radius:25px;
 }
 .links img:HOVER{
-  OPACITY:0.3;
+  OPACITY:0.5;
 }
 .nav {
 background-color:black;
@@ -49,7 +54,7 @@ text-align:right;
   font-size:20px;
 }
 .nav li a:hover {
-  color:red;
+  color:#3ae01d;
 }
 .logo {
   float:left;
@@ -69,4 +74,44 @@ text-align:right;
 .banner > .bannerimg {
   width:100%;
   display:block;
+}
+.para {
+  color : white;
+  font-size: 16px;
+  font-weight:bold;
+}
+.secs {
+  width : 1100px;
+  margin:0 auto;
+}
+.lang {
+  border:2px solid #3ae01d;
+  border-radius:5px;
+  margin:20px 10px;
+  padding:10px 0;
+  float:left;
+  max-width:250px;
+}
+.description {
+  font-size: 35px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  font-family:fantasy;
+}
+.head {
+  font-size:100px;
+  color:white;
+}
+.headhtml{
+  font-size:80px;
+  color:green;
+}
+.headcss{  font-size:80px;
+  color:blue;}
+.headjs{  font-size:80px;
+  color:red;}
+.headgit{
+  font-size:80px;
+  color:orange;
 }

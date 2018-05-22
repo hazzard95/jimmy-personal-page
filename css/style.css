@@ -1,5 +1,5 @@
 body{
-  background-color:#d83c3c;
+  background-color:black;
 }
 .container{
   display:flex;
@@ -7,7 +7,7 @@ body{
 }
 .info {
   font-size:18px;
-  color:#ffffff;
+  color:green;
   margin-left:10px ;
   font-weight:bold;
   font-family:fantasy;

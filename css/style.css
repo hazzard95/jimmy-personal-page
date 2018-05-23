@@ -22,7 +22,7 @@ color:white;
 background-color:black;
 padding:10px 10px 10px 10px;
 font-size:30px;
-background-color: #3ae01d;
+background-color: green;
 padding:20px 10px;
 margin-top:-10px;
 }
@@ -85,7 +85,7 @@ text-align:right;
   margin:0 auto;
 }
 .lang {
-  border:2px solid #3ae01d;
+  border:2px solid green;
   border-radius:5px;
   margin:20px 10px;
   padding:10px 0;

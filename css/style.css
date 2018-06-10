@@ -1,5 +1,5 @@
 body{
-  background-color:#151515;
+  background-color:#0a0736;
   font-family:fantasy;
 }
 .container{
@@ -17,14 +17,7 @@ body{
   display:block;
   margin:0 auto;
 }
-h1{
-color:white;
-padding:10px 10px 10px 10px;
-font-size:30px;
-background-color:#363636;
-padding:20px 10px;
-margin-top:-10px;
-}
+
 .links {
   margin-top:50px;
 }
@@ -37,7 +30,7 @@ margin-top:-10px;
   OPACITY:0.5;
 }
 .nav {
-background-color:#363636;
+background-color:#ff005a;
 color:white;
 padding:20px 0 20px 0;
 text-align:right;
@@ -45,7 +38,7 @@ text-align:right;
 .nav li{
   list-style:none;
   display:inline-block;
-  padding-right:20px;
+  padding-right:10px;
 }
 .nav li a{
   text-decoration:none;
@@ -53,8 +46,9 @@ text-align:right;
   font-size:20px;
 }
 .nav li a:hover {
-  color:black;
-  transition:0.5s;
+color:black;
+padding:20px 0px 20px 0px;
+transition:0.4s;
 }
 .logo {
   float:left;
@@ -84,13 +78,70 @@ text-align:right;
   width : 1100px;
   margin:0 auto;
 }
-.lang {
-  border:2px solid #4a4a4a;
+.langhtml {
+  border:2px solid #ff8300;
   border-radius:5px;
   margin:20px 10px;
   padding:10px 0;
   float:left;
   max-width:250px;
+}
+.langhtml h1{
+color:black;
+padding:10px 10px 10px 10px;
+font-size:30px;
+background-color:#ff8300;
+padding:20px 10px;
+margin-top:-10px;
+}
+
+.langcss {
+  border:2px solid #00a5ff;
+  border-radius:5px;
+  margin:20px 10px;
+  padding:10px 0;
+  float:left;
+  max-width:250px;
+}
+.langcss h1{
+color:black;
+padding:10px 10px 10px 10px;
+font-size:30px;
+background-color:#00a5ff;
+padding:20px 10px;
+margin-top:-10px;
+}
+.langjs {
+  border:2px solid #fcc953;
+  border-radius:5px;
+  margin:20px 10px;
+  padding:10px 0;
+  float:left;
+  max-width:250px;
+}
+.langjs h1{
+color:black;
+padding:10px 10px 10px 10px;
+font-size:30px;
+background-color: #fcc953;
+padding:20px 10px;
+margin-top:-10px;
+}
+.langgit {
+  border:2px solid #ff6a00;
+  border-radius:5px;
+  margin:20px 10px;
+  padding:10px 0;
+  float:left;
+  max-width:250px;
+}
+.langgit h1{
+color:black;
+padding:10px 10px 10px 10px;
+font-size:30px;
+background-color:#ff6a00;
+padding:20px 10px;
+margin-top:-10px;
 }
 .description {
   font-size: 35px;
@@ -98,6 +149,7 @@ text-align:right;
   color:white;
   text-align:center;
   font-family:fantasy;
+  margin-top:20px;
 }
 .head {
   font-size:100px;
@@ -108,5 +160,33 @@ text-align:right;
   width:200px;
 }
 .image a:hover {
-  opacity:0.5;
+  transition:0.6s;
+  color:red;
+  filter:grayscale(100%);
+}
+.source {
+  display:block;
+  margin-top:20px;
+}
+.source p {
+  text-align:center;
+  color:white;
+  font-size:20px;
+  text-transform: capitalize;
+  max-width:70%;
+}
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:#ff005a;
+  text-align:center;
+  height:50px;
+}
+.footer,.push{height:50px;}
+.footer p {
+  font-size:18px;
+  color:white;
+  text-transform:capitalize;
 }
